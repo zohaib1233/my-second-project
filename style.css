@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 206);
+}
+.logo{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.links{
+    margin-left: 180px;
+    margin-top: 45px;
+}
+.links a{
+    padding: 10px;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+}
+.links a:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.icons i{
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
